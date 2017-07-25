@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/mafredri/cdp"
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/clex/cdp"
+	"github.com/clex/cdp/rpcc"
 )
 
 // LogCodec captures the output from writing RPC requests and reading

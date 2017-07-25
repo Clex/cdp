@@ -5,8 +5,8 @@ package cdpevent
 import (
 	"encoding/json"
 
-	"github.com/mafredri/cdp/cdptype"
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/clex/cdp/cdptype"
+	"github.com/clex/cdp/rpcc"
 )
 
 // AnimationCreatedClient receives AnimationCreated events.

@@ -5,8 +5,8 @@ package cdp
 import (
 	"context"
 
-	"github.com/mafredri/cdp/cdpcmd"
-	"github.com/mafredri/cdp/cdpevent"
+	"github.com/clex/cdp/cdpcmd"
+	"github.com/clex/cdp/cdpevent"
 )
 
 // The Accessibility domain.

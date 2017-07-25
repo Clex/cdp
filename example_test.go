@@ -6,10 +6,10 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/mafredri/cdp"
-	"github.com/mafredri/cdp/cdpcmd"
-	"github.com/mafredri/cdp/devtool"
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/clex/cdp"
+	"github.com/clex/cdp/cdpcmd"
+	"github.com/clex/cdp/devtool"
+	"github.com/clex/cdp/rpcc"
 )
 
 func Example() {

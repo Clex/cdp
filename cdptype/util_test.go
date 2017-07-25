@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/mafredri/cdp/cdpevent"
+	"github.com/clex/cdp/cdpevent"
 )
 
 var update = flag.Bool("update", false, "update .golden files")

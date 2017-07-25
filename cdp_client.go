@@ -3,8 +3,8 @@
 package cdp
 
 import (
-	"github.com/mafredri/cdp/cdpdom"
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/clex/cdp/cdpdom"
+	"github.com/clex/cdp/rpcc"
 )
 
 // Client represents a Chrome Debugging Protocol client that can be used to

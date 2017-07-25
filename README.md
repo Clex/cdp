@@ -1,8 +1,8 @@
 # cdp
 
-[![Build Status](https://travis-ci.org/mafredri/cdp.svg)](https://travis-ci.org/mafredri/cdp) [![Coverage Status](https://codecov.io/gh/mafredri/cdp/branch/master/graph/badge.svg)](https://codecov.io/gh/mafredri/cdp) [![Go Report Card](https://goreportcard.com/badge/github.com/mafredri/cdp)](https://goreportcard.com/report/github.com/mafredri/cdp) [![GoDoc](https://godoc.org/mafredri/cdp?status.svg)](https://godoc.org/github.com/mafredri/cdp)
+[![Build Status](https://travis-ci.org/mafredri/cdp.svg)](https://travis-ci.org/mafredri/cdp) [![Coverage Status](https://codecov.io/gh/mafredri/cdp/branch/master/graph/badge.svg)](https://codecov.io/gh/mafredri/cdp) [![Go Report Card](https://goreportcard.com/badge/github.com/clex/cdp)](https://goreportcard.com/report/github.com/clex/cdp) [![GoDoc](https://godoc.org/mafredri/cdp?status.svg)](https://godoc.org/github.com/clex/cdp)
 
-Package `cdp` provides type-safe bindings for the [Chrome Debugging Protocol](https://developer.chrome.com/devtools/docs/debugger-protocol) (CDP), written in the Go programming language. The bindings are generated with the latest [js_protocol.json](https://chromium.googlesource.com/chromium/src/+/master/third_party/WebKit/Source/core/inspector/browser_protocol.json) and [browser_protocol.json](https://chromium.googlesource.com/v8/v8.git/+/master/src/inspector/js_protocol.json) from the Chromium repository using [cmd/cdpgen](https://github.com/mafredri/cdp/blob/master/cmd/cdpgen). These bindings can be used with any debug target that implements the protocol.
+Package `cdp` provides type-safe bindings for the [Chrome Debugging Protocol](https://developer.chrome.com/devtools/docs/debugger-protocol) (CDP), written in the Go programming language. The bindings are generated with the latest [js_protocol.json](https://chromium.googlesource.com/chromium/src/+/master/third_party/WebKit/Source/core/inspector/browser_protocol.json) and [browser_protocol.json](https://chromium.googlesource.com/v8/v8.git/+/master/src/inspector/js_protocol.json) from the Chromium repository using [cmd/cdpgen](https://github.com/clex/cdp/blob/master/cmd/cdpgen). These bindings can be used with any debug target that implements the protocol.
 
 A big motivation for `cdp` is to expose the full functionality of the Chrome Debugging Protocol and provide it in a discoverable and self-documenting manner.
 
@@ -21,12 +21,12 @@ Providing high-level browser automation is a non-goal for this project. That bei
 ## Installation
 
 ```console
-$ go get -u github.com/mafredri/cdp
+$ go get -u github.com/clex/cdp
 ```
 
 ## Documentation
 
-See [API documentation](https://godoc.org/github.com/mafredri/cdp) for package, API descriptions and examples. Examples can also be found in this repository, see the [simple](https://github.com/mafredri/cdp/blob/master/example_test.go), [advanced](https://github.com/mafredri/cdp/blob/master/example_advanced_test.go) and [logging](https://github.com/mafredri/cdp/blob/master/example_logging_test.go) examples.
+See [API documentation](https://godoc.org/github.com/clex/cdp) for package, API descriptions and examples. Examples can also be found in this repository, see the [simple](https://github.com/clex/cdp/blob/master/example_test.go), [advanced](https://github.com/clex/cdp/blob/master/example_advanced_test.go) and [logging](https://github.com/clex/cdp/blob/master/example_logging_test.go) examples.
 
 ## Usage
 
@@ -45,10 +45,10 @@ import (
     "io/ioutil"
     "time"
 
-    "github.com/mafredri/cdp"
-    "github.com/mafredri/cdp/cdpcmd"
-    "github.com/mafredri/cdp/devtool"
-    "github.com/mafredri/cdp/rpcc"
+    "github.com/clex/cdp"
+    "github.com/clex/cdp/cdpcmd"
+    "github.com/clex/cdp/devtool"
+    "github.com/clex/cdp/rpcc"
 )
 
 func main() {

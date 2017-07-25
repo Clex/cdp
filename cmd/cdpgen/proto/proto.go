@@ -5,7 +5,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/mafredri/cdp/cmd/cdpgen/lint"
+	"github.com/clex/cdp/cmd/cdpgen/lint"
 
 	"github.com/client9/misspell"
 )

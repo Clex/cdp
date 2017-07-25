@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/mafredri/cdp"
-	"github.com/mafredri/cdp/cdpcmd"
-	"github.com/mafredri/cdp/cdptype"
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/clex/cdp"
+	"github.com/clex/cdp/cdpcmd"
+	"github.com/clex/cdp/cdptype"
+	"github.com/clex/cdp/rpcc"
 )
 
 func main() {

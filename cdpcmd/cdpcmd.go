@@ -5,7 +5,7 @@ package cdpcmd
 import (
 	"encoding/json"
 
-	"github.com/mafredri/cdp/cdptype"
+	"github.com/clex/cdp/cdptype"
 )
 
 // AccessibilityGetPartialAXTreeArgs represents the arguments for GetPartialAXTree in the Accessibility domain.

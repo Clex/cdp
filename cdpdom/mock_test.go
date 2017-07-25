@@ -7,7 +7,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/clex/cdp/rpcc"
 )
 
 type testCodec struct {

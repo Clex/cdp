@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/mafredri/cdp/cdpcmd"
-	"github.com/mafredri/cdp/cdpevent"
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/clex/cdp/cdpcmd"
+	"github.com/clex/cdp/cdpevent"
+	"github.com/clex/cdp/rpcc"
 )
 
 func TestAccessibility_GetPartialAXTree(t *testing.T) {

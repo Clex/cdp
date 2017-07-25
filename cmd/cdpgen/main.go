@@ -16,7 +16,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/mafredri/cdp/cmd/cdpgen/proto"
+	"github.com/clex/cdp/cmd/cdpgen/proto"
 )
 
 // Global constants.
@@ -105,7 +105,7 @@ func main() {
 	panicErr(err)
 
 	cdpgen.imports = []string{
-		"github.com/mafredri/cdp/rpcc",
+		"github.com/clex/cdp/rpcc",
 		typegen.dir, cmdgen.dir, eventgen.dir,
 	}
 	cmdgen.imports = []string{typegen.dir}

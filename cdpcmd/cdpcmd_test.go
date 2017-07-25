@@ -3,7 +3,7 @@ package cdpcmd
 import (
 	"testing"
 
-	"github.com/mafredri/cdp/cdptype"
+	"github.com/clex/cdp/cdptype"
 )
 
 func TestNewAccessibilityGetPartialAXTreeArgs(t *testing.T) {

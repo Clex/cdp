@@ -7,7 +7,7 @@ Beware, this tool is not a feat of engineering, it's only purpose is to generate
 ## Installing
 
 ```console
-go get -u github.com/mafredri/cdp/cmd/cdpgen
+go get -u github.com/clex/cdp/cmd/cdpgen
 ```
 
 ## Usage
@@ -17,9 +17,9 @@ The current protocol definitions are committed in this repository under the `pro
 ### Generating the cdp package
 
 ```console
-$ cdpgen -dest-pkg github.com/mafredri/cdp \
-    -browser-proto $GOPATH/src/github.com/mafredri/cdp/cmd/cdpgen/protodef/browser_protocol.json \
-    -js-proto $GOPATH/src/github.com/mafredri/cdp/cmd/cdpgen/protodef/js_protocol.json
+$ cdpgen -dest-pkg github.com/clex/cdp \
+    -browser-proto $GOPATH/src/github.com/clex/cdp/cmd/cdpgen/protodef/browser_protocol.json \
+    -js-proto $GOPATH/src/github.com/clex/cdp/cmd/cdpgen/protodef/js_protocol.json
 ```
 
 ### Updating protocol definitions

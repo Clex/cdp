@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/mafredri/cdp"
-	"github.com/mafredri/cdp/cdpcmd"
-	"github.com/mafredri/cdp/rpcc"
+	"github.com/clex/cdp"
+	"github.com/clex/cdp/cdpcmd"
+	"github.com/clex/cdp/rpcc"
 )
 
 // headlessCreateURL tries to create a new target for Headless Chrome that does
